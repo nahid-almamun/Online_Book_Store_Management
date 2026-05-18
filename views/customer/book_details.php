@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
 require_once '../../config/database.php';
 require_once '../../config/helpers.php';
@@ -116,4 +114,3 @@ function addToCart(bookId) {
     <?php require_once '../layouts/footer.php'; ?>
 </body>
 </html>
->>>>>>> feature1

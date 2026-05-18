@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
 require_once '../config/database.php';
 require_once '../config/helpers.php';
@@ -20,4 +18,3 @@ $stmt->execute();
  
 echo json_encode(["success" => true, "message" => "Item removed from cart."]);
 ?>
->>>>>>> 5f6065505240c4f22aea8d6767e4d5a7c8e00f6f

@@ -83,7 +83,7 @@ $orders = $ordersStmt->get_result();
                 <?php while($item = $items->fetch_assoc()): ?>
                     <li>
                         <?php echo $item['title']; ?>
-                        × <?php echo $item['quantity']; ?>
+                        <?php echo $item['quantity']; ?>
                         — ৳ <?php echo $item['unit_price']; ?>
                     </li>
                 <?php endwhile; ?>
